@@ -1,0 +1,84 @@
+.active>.page-link, .page-link.active{
+  background-color: #009933;
+  border-color: #009933;
+}
+
+.page-link{
+  color: #009933;
+}
+
+.link-sosmed:hover{
+  color: #cccccc;
+}
+
+#log{
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+
+  background: transparent;
+
+  /* inherit font & color from ancestor */
+  color: rgba(255, 255, 255, 0.55);
+  font: inherit;
+
+
+  /* Corrects font smoothing for webkit */
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+
+  /* Corrects inability to style clickable `input` types in iOS */
+  -webkit-appearance: none;
+}
+
+.naikNavbar-def{
+  top:-65px
+}
+
+.naikNavbar{
+  top : -223px;
+}
+
+.naikJuga{
+  margin-top: -150px;
+}
+
+.max-60{
+  max-width: 60px;
+}
+
+.max-500{
+  max-width: 500px;
+}
+
+.max-100{
+  max-width: 100px;
+}
+
+.bg-trans{
+  background-color: rgba(0,0,0,0.5);
+}
+
+.bg-ijo{
+  z-index: 9999;
+  background-image: linear-gradient(to bottom right, #009933, #00e64d);
+  box-shadow:  2px 2px 2px rgba(0, 0, 0, 0.4);;
+}
+
+.accordion-button:not(.collapsed){
+  color: #ffff;
+  background-image: linear-gradient(to bottom right, #009933, #00e64d);
+}
+
+.accordion-button:not(.collapsed)::after{
+  background-image: none;
+}
+
+.text-shadow{
+  text-shadow:  2px 2px rgba(0, 0, 0, 0.2);
+}
+
+input[type="file"]::file-selector-button {
+      display: none;
+    }
